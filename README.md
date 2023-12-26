@@ -1,7 +1,7 @@
-# GGDash
-## Технологии
-HTML, CSS, JS (список используемых технологий будет обновляться)
-## Описание
-Сайт для моего проекта — GGDash
-## Created by:
-glorius@internet.ru
+# GGDash 
+## Technology:
+HTML, CSS, JS (the list of technologies used will be updated) 
+## Description:
+GGDash - My Geometry Dash Server Website. 
+## Created by: 
+glorius@zohomail.eu
