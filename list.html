@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
+  <title>GGDash</title>
+</head>
+<body>
+<header class="header">
+  <div class="container header-container fade-in">
+    <a href="./index.html" class="header-logo">
+      GGDash
+    </a>
+    <nav class="header-nav">
+      <ul class="header-list flex">
+        <li class="list-item"><a href="./index.html" class="list-link">Главная</a></li>
+        <li class="list-item"><a href="./index.html#products" class="list-link">Товары</a></li>
+        <li class="list-item"><a href="./list.html" class="list-link">Листы</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="list">
+    <h1 class="list-heading fade-in">
+      <a href="#">Demon list</a>
+    </h1>
+    <h2 class="list-small-heading fade-in">
+      <a href="">Challenge List</a>
+    </h2>
+    <h2 class="list-small-heading fade-in">
+      <a href="">Impossible List</a>
+    </h2>
+    <h2 class="list-small-heading fade-in">
+      <a href="">Leaderboard</a>
+    </h2>
+  </section>
+
+  <section class="info">
+    <ul class="info-list">
+      <li class="info-item">
+        <img src="./img/list/1.png" alt="first demon" style="float: left" class="info-image">
+        <div class="info-wrapper">
+          <h3 class="info-item-level-name fade-in">
+            BOG
+          </h3>
+          <div class="info-item-level-author fade-in">
+            By ItzAley
+          </div>
+          <div class="info-item-level-description">
+            Верифер - Ssane
+            <br>
+            Сложность - Extreme
+            <br>
+            Место в топе - 1
+            <br>
+            ID - 1676
+          </div>
+        </div>
+      </li>
+      <li class="info-item">
+        <img src="./img/list/2.png" alt="second demon" style="float: left" class="info-image">
+        <div class="info-wrapper">
+          <h3 class="info-item-level-name fade-in">
+            Interstellar
+          </h3>
+          <div class="info-item-level-author fade-in">
+            By BbcAllt
+          </div>
+          <div class="info-item-level-description">
+            Верифер - ItzAley
+            <br>
+            Сложность - Extreme
+            <br>
+            Место в топе - 2
+            <br>
+            ID - 1539
+          </div>
+        </div>
+      </li>
+      <li class="info-item">
+        <img src="./img/list/3.png" alt="third demon" style="float: left" class="info-image">
+        <div class="info-wrapper">
+          <h3 class="info-item-level-name fade-in">
+            Hanzo Circles
+          </h3>
+          <div class="info-item-level-author fade-in">
+            By Mistery
+          </div>
+          <div class="info-item-level-description">
+            Верифер - Mistery
+            <br>
+            Сложность - Extreme
+            <br>
+            Место в топе - 3
+            <br>
+            Id - 904
+          </div>
+        </div>
+      </li>
+
+      <li class="info-item">
+        <img src="./img/list/4.png" alt="third demon" style="float: left" class="info-image">
+        <div class="info-wrapper">
+          <h3 class="info-item-level-name fade-in">
+            Chaotic Crimson
+          </h3>
+          <div class="info-item-level-author fade-in">
+            By Mistery
+          </div>
+          <div class="info-item-level-description">
+            Верифер - Mistery
+            <br>
+            Сложность - Extreme
+            <br>
+            Место в топе - 4
+            <br>
+            Id - 838
+          </div>
+        </div>
+      </li>
+
+      <li class="info-item">
+        <img src="./img/list/5.png" alt="third demon" style="float: left" class="info-image">
+        <div class="info-wrapper">
+          <h3 class="info-item-level-name fade-in">
+            Nxght Hxll III
+          </h3>
+          <div class="info-item-level-author fade-in">
+            By Mistery
+          </div>
+          <div class="info-item-level-description">
+            Верифер - GGNeaf
+            <br>
+            Сложность - Extreme
+            <br>
+            Место в топе - 5
+            <br>
+            Id - 938
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="info-rules">
+      ПРАВИЛА ДЛЯ ВНЕСЕНИЯ ЛВЛ В ЛИСТЫ
+      <button id="info-arrow">
+        <img src="./img/icons/ellipse.svg" alt="">
+        <p id="info-text">
+          #1 Длинна уровня от 30 секунд
+          <br>
+          #2 Уровень должен быть возможен и легитно верифицирован с доказательствами (клики обязательны)
+          <br>
+          #3 В уровне не должно быть багов/секрет веев которые облегчают прохождение уровня/позволяют полностью пройти уровень.
+          <br>
+          #4 Уровень должен быть возможен на 60+ фпс.
+          <br>
+          #5 Уровень может попасть в лист без оценки если был оценён ранее, или имеет шанс на оценку.
+          <br>
+          #6 Уровень должен быть построен на приватке и не перенесён с оригинальной игры или с других гдпс'ов
+        </p>
+      </button>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-rights">
+      © 2022-2023 GGDash. Все права защищены
+    </div>
+    <div class="footer-ver">
+      SAIT VER 08.11.2023
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

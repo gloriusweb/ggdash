@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
+  <title>GGDash</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <header class="header">
+    <div class="container header-container fade-in">
+      <a href="./index.html" class="header-logo">
+        GGDash
+      </a>
+      <nav class="header-nav">
+        <ul class="header-list flex">
+          <li class="list-item" id="trigger1"><a href="./index.html" class="list-link">Главная</a></li>
+          <li class="list-item"><a href="#products" class="list-link">Товары</a></li>
+          <li class="list-item"><a href="./list.html" class="list-link">Листы</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <section class="download">
+    <div class="container download-container">
+      <span class="ggdash"></span>
+      <h1 class="download-heading">
+        GGDash
+      </h1>
+      <div class="download-description">
+        Лучший гдпс с фишками из 2.2, модами и еще многим чем интересным
+      </div>
+      <a href="#platforms">
+        <button class="download-btn">
+          Скачать
+        </button>
+      </a>
+    </div>
+  </section>
+</div>
+
+<main>
+  <section class="why">
+    <div class="container why-container">
+      <div class="why-image">
+        <img src="./img/icons/glorius.png" alt="image description">
+      </div>
+      <div class="why-heading fade-in">Почему именно мы?</div>
+      <p class="why-description fade-in">
+        МЫ ОДИН И САМЫХ ЛУЧШИХ ГДПС В рк.
+        У НАС ИМЕЕТСЯ:
+        <ol class="why-description fade-in">
+          <li>
+            МНОЖЕСТВО МОДОВ И ФИШЕК ИЗ GEOMETRY DASH 2.2.
+          </li>
+          <li>
+            ОТЗЫВЧИВАЯ АДМИНИСТРАЦИЯ И ОБЩИТЕЛЬНОЕ КОММЬЮНИТИ
+          </li>
+          <li>
+            ВОЗМОЖНОСТЬ ДОБАВИТЬ МУЗЫКУ С ЛЮБОГО СЕРВИСА
+          </li>
+          <li>
+            ОТЛИЧНАЯ ЗАЩИТА ОТ DDOS АТАК
+          </li>
+          <li>
+            КРАСИВЫЙ ТЕКСТУРПАК
+          </li>
+        </ol>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container products-container">
+      <h2 class="heading products-heading fade-in">
+        Товары
+      </h2>
+      <ul class="products-list">
+        <li class="products-item">
+          <a href="https://www.donationalerts.com/r/ggdash_">
+            <div class="products-card">
+              <h3 class="products-card-heading fade-in">
+                VIP
+              </h3>
+              <div class="products-card-price fade-in">
+              <span class="products-card-old-price fade-in">
+                99Р
+              </span>
+                35Р
+              </div>
+              <div class="products-card-description fade-in">
+                <ol class="products-card-list">
+                  <li class="products-card-item">Смайл рейт</li>
+                  <li class="products-card-item">1 кастом роль</li>
+                  <li class="products-card-item">Подсветка комментов уникальным цветом</li>
+                </ol>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="products-item">
+          <a href="https://www.donationalerts.com/r/ggdash_">
+            <div class="products-card">
+              <h3 class="products-card-heading fade-in">
+                PREM
+              </h3>
+              <div class="products-card-price fade-in">
+              <span class="products-card-old-price fade-in">
+                219Р
+              </span>
+                69Р
+              </div>
+              <div class="products-card-description fade-in">
+                <ol class="products-card-list">
+                  <li class="products-card-item">Отправлять уровень на рейт</li>
+                  <li class="products-card-item">2 кастом роли</li>
+                  <li class="products-card-item">Отправлять уровни на рейт</li>
+                  <li class="products-card-item">Смайл рейт</li>
+                  <li class="products-card-item">Уникальный значок</li>
+                  <li class="products-card-item">Доступ к донат новостям</li>
+                </ol>
+                <div class="products-card-item-description">Все возможности VIP</div>
+              </div>
+            </div>
+          </a>
+
+        </li>
+        <li class="products-item">
+          <a href="https://www.donationalerts.com/r/ggdash_">
+            <div class="products-card">
+              <h3 class="products-card-heading fade-in">
+                Ultim
+              </h3>
+              <div class="products-card-price fade-in">
+              <span class="products-card-old-price fade-in">
+                349Р
+              </span>
+                129Р
+              </div>
+              <div class="products-card-description fade-in">
+                <ol class="products-card-list">
+                  <li class="products-card-item">Отправлять уровни на рейт</li>
+                  <li class="products-card-item">3 кастом роли</li>
+                  <li class="products-card-item">Ставить дейли</li>
+                  <li class="products-card-item">Приоритетный режим в дискорд сервере</li>
+                  <li class="products-card-item">Смайл рейт</li>
+                  <li class="products-card-item">Журнал аудита</li>
+                </ol>
+                <div class="products-card-item-description">Все возможности Prem</div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="platforms" id="platforms">
+    <div class="container platforms-container">
+      <h2 class="heading platforms-heading fade-in">Скачать</h2>
+      <ul class="platforms-list">
+        <li class="platforms-item windows">
+          <a href="https://www.dropbox.com/scl/fi/89o2ber3478qlpny80v5m/GGDash.zip?rlkey=dfprgitzllw7u91aei25yx3p1&dl=1" class="link">
+            <img src="./img/icons/windows.png" class="platforms-icon" alt="">
+            <div class="platforms-link">
+              Windows
+            </div>
+          </a>
+        </li>
+        <li class="platforms-item android">
+          <a href="https://www.dropbox.com/scl/fi/il93f674ong456rqz2y3r/GGDash.apk?rlkey=u18levgd9s1f03c8djk3dklmr&dl=1" class="link">
+            <img src="./img/icons/android.png" class="platforms-icon" alt="">
+            <div class="platforms-link">
+              Android
+            </div>
+          </a>
+        </li>
+
+        <li class="platforms-item ios">
+          <a href="https://cdn3.fruitspace.one/gdps_installers/001X_GGDash.ipa" class="link">
+            <img src="./img/icons/ios.png" class="platforms-icon" alt="">
+            <div class="platforms-link">
+              IOS
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-rights">
+      © 2022-2023 GGDash. Все права защищены
+    </div>
+    <div class="footer-ver">
+      SAIT VER 08.11.2023
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
