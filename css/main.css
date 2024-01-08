@@ -270,7 +270,7 @@ html {
 
 .why-container {
   max-width: 1680px;
-  min-height: 660px;
+  min-height: 600px;
   padding: 70px 62px 37px;
   flex-shrink: 0;
   border-radius: 30px;
