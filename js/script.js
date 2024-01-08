@@ -40,16 +40,10 @@ function toggleMenu() {
 var button = document.getElementById("info-arrow");
 var text = document.getElementById("info-text");
 
-// Добавляем обработчик события click к кнопке
 button.addEventListener("click", function() {
-    // Меняем свойство display элемента текста на противоположное
-    // Если текст скрыт, то показываем его, и наоборот
     if (text.style.display == "none") {
         text.style.display = "block";
     } else {
         text.style.display = "none";
     }
-    button.classList.toggle("rotated");
-    // Добавляем или удаляем класс rotated к кнопке в зависимости от состояния текста
-    // Если текст открыт, то добавляем класс rotated, и наоборот
 });
