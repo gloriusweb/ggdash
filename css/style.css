@@ -5,6 +5,11 @@ html {
   min-height: 1533px;
 }
 
+p {
+  margin-top: 0;
+  white-space: pre-line;
+}
+
 .list-heading {
   margin: 45px 0 15px 0;
   text-align: center;
@@ -33,6 +38,9 @@ html {
 .info-image {
   width: 561px;
   max-height: 315px;
+  float: left; 
+  display: flex;
+  margin-bottom: 40px;
   border-radius: 52px;
 }
 
@@ -73,6 +81,7 @@ html {
 }
 
 .info-item-level-description {
+  line-height: 1.2;
   max-width: 600px;
   color: #FFF;
   font-size: clamp(20px,10vw,40px);
