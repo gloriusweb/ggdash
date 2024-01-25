@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Multiround Pro';
-  src: url('../fonts/multiroundpro_2.woff2') format('woff2'), url('../fonts/multiroundpro_2.woff') format('woff');
+  src: url('../fonts/multiroundpro.woff2') format('woff2'), url('../fonts/multiroundpro.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -68,8 +68,8 @@ html {
 }
 
 .wrapper::before {
-  content: ''; /* Это обязательно для отображения псевдоэлемента */
-  position: absolute; /* Это позволяет задать координаты и размеры псевдоэлемента */
+  content: '';
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
